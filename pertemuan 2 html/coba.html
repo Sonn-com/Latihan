@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Latihan HTML5: Web Statis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        hgroup h1, hgroup h2, hgroup h3 {
+            margin: 0;
+        }
+
+        figure {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        aside {
+            background-color: #eee;
+            padding: 10px;
+            margin-top: 10px;
+            border-left: 4px solid #0077cc;
+        }
+
+        footer {
+            background-color: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Pemrograman Web Statis</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Buku Tamu</a></li>
+    </ul>
+</nav>
+
+<main>
+    <article>
+        <header>
+            <h1>Artikel Ke-1</h1>
+        </header>
+        <section>
+            <p>#Artikel Pertama, ini adalah latihan pertama saya dalam belajar HTML5 tingkat pemula.</p>
+        </section>
+    </article>
+
+    <article>
+        <header>
+            <hgroup>
+                <h1>Pemrograman Web Statis</h1>
+                <h2>Menggunakan HTML5 Tingkat Dasar</h2>
+                <h3>Oleh Wawan Beneran (Newbie)</h3>
+            </hgroup>
+        </header>
+        <section>
+            <p>#Artikel Kedua, ini adalah latihan lanjutan saya dalam belajar HTML5 tingkat pemula.</p>
+        </section>
+
+        <p>
+            Ini paragraf pertama, berisi dummy text sebagai contoh konten dalam paragraf HTML.
+        </p>
+
+        <p>
+            Ini paragraf kedua, digunakan untuk menampilkan isi artikel lebih panjang dan terstruktur.
+        </p>
+
+        <aside>
+            Rekomendasi Artikel: "Sejarah HTML5"
+        </aside>
+        <aside>
+            Rekomendasi Artikel: "Pengembang HTML5"
+        </aside>
+    </article>
+
+    <figure>
+        <img width="150" height="150" src="a.webp" alt="Logo Gatewan" />
+        <figcaption>Ini merupakan Icon Aplikasi Gatewan</figcaption>
+    </figure>
+</main>
+
+<footer>
+    &copy; 2025 - <a href="http://www.gatewan.com">GATEWAN</a> - All Rights Reserved
+</footer>
+
+</body>
+</html>
